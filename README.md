@@ -4,6 +4,7 @@ AutoFacebook is an AutoGPT Plugin that automatically manages your Facebook pages
 It can create engaging posts, engage in others posts, reply to comments, and more. 
 
 Key Features
+
 ⭐ Generate high-quality posts based on your page topic and audience preferences. 
 
 ⭐ Respond to comments with natural and relevant replies. 
