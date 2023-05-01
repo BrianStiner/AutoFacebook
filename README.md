@@ -1,7 +1,8 @@
 # AutoFacebook
 
 AutoFacebook is an AutoGPT Plugin that automatically manages your Facebook pages by giving AutoGPT access to the facebook api.
-It can create engaging posts, engage in others posts, reply to comments, and more. 
+It can create engaging posts, engage in others posts, reply to comments, and more.
+ 
 
 ## Key Features
 
@@ -40,3 +41,5 @@ FACEBOOK_API_KEY=
 FACEBOOK_API_KEY: Your API key for the Facebook Graph API. You can obtain a key by following the steps below.
 - Create a Facebook developer account and register your app.
 - Navigate to the Settings > Basic page and copy your App ID and App Secret.
+
+
