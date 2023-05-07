@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Agent Conversation</title>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+</head>
+<body>
+    <h1>Agent Conversation</h1>
+    <button id="start-conversation">Start Conversation</button>
+    <pre id="conversation"></pre>
+
+    <script>
+        $(document).ready(function() {
+            $("#start-conversation").click(function() {
+                $.post("/get_conversation", {}, function(data) {
+                    $("#conversation").text(data.conversation);
+                });
+            });
+        });
+    </script>
+</body>
+</html>
